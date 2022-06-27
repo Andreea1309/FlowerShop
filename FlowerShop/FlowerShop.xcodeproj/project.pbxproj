@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		576C8C212869D03F0089E440 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C8C202869D03F0089E440 /* AppDelegate.swift */; };
 		576C8C232869D03F0089E440 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C8C222869D03F0089E440 /* SceneDelegate.swift */; };
-		576C8C252869D03F0089E440 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C8C242869D03F0089E440 /* ViewController.swift */; };
+		576C8C252869D03F0089E440 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C8C242869D03F0089E440 /* OrdersViewController.swift */; };
 		576C8C282869D03F0089E440 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576C8C262869D03F0089E440 /* Main.storyboard */; };
 		576C8C2A2869D0410089E440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576C8C292869D0410089E440 /* Assets.xcassets */; };
 		576C8C2D2869D0410089E440 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576C8C2B2869D0410089E440 /* LaunchScreen.storyboard */; };
+		576C8C372869DFB40089E440 /* OrdersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C8C362869DFB40089E440 /* OrdersViewModel.swift */; };
+		576C8C3A2869DFC70089E440 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C8C392869DFC70089E440 /* Order.swift */; };
+		576C8C3C2869E08A0089E440 /* OrderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C8C3B2869E08A0089E440 /* OrderService.swift */; };
+		576C8C402869E55A0089E440 /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C8C3F2869E55A0089E440 /* OrderDetailsViewController.swift */; };
+		576C8C422869E5880089E440 /* OrderDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C8C412869E5880089E440 /* OrderDetailsViewModel.swift */; };
+		775821235AD2D738B8A07E4F /* Pods_FlowerShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE840CC758A8B03414475B59 /* Pods_FlowerShop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A2BDA813DA7DD586741397B /* Pods-FlowerShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerShop.release.xcconfig"; path = "Target Support Files/Pods-FlowerShop/Pods-FlowerShop.release.xcconfig"; sourceTree = "<group>"; };
 		576C8C1D2869D03F0089E440 /* FlowerShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		576C8C202869D03F0089E440 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		576C8C222869D03F0089E440 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		576C8C242869D03F0089E440 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		576C8C242869D03F0089E440 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		576C8C272869D03F0089E440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		576C8C292869D0410089E440 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		576C8C2C2869D0410089E440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		576C8C2E2869D0410089E440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576C8C362869DFB40089E440 /* OrdersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewModel.swift; sourceTree = "<group>"; };
+		576C8C392869DFC70089E440 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		576C8C3B2869E08A0089E440 /* OrderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderService.swift; sourceTree = "<group>"; };
+		576C8C3F2869E55A0089E440 /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
+		576C8C412869E5880089E440 /* OrderDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewModel.swift; sourceTree = "<group>"; };
+		7231F4E0BA9C51951033DD48 /* Pods-FlowerShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerShop.debug.xcconfig"; path = "Target Support Files/Pods-FlowerShop/Pods-FlowerShop.debug.xcconfig"; sourceTree = "<group>"; };
+		BE840CC758A8B03414475B59 /* Pods_FlowerShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowerShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				775821235AD2D738B8A07E4F /* Pods_FlowerShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				576C8C1F2869D03F0089E440 /* FlowerShop */,
 				576C8C1E2869D03F0089E440 /* Products */,
+				6DD2FC40666885AF83F7AA23 /* Pods */,
+				A90B3E845EC1F74F81AB4456 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,78 @@
 		576C8C1F2869D03F0089E440 /* FlowerShop */ = {
 			isa = PBXGroup;
 			children = (
+				576C8C382869DFBC0089E440 /* Models */,
+				576C8C352869DEEF0089E440 /* Scenes */,
+				576C8C342869DEE30089E440 /* Services */,
 				576C8C202869D03F0089E440 /* AppDelegate.swift */,
 				576C8C222869D03F0089E440 /* SceneDelegate.swift */,
-				576C8C242869D03F0089E440 /* ViewController.swift */,
 				576C8C262869D03F0089E440 /* Main.storyboard */,
 				576C8C292869D0410089E440 /* Assets.xcassets */,
 				576C8C2B2869D0410089E440 /* LaunchScreen.storyboard */,
 				576C8C2E2869D0410089E440 /* Info.plist */,
 			);
 			path = FlowerShop;
+			sourceTree = "<group>";
+		};
+		576C8C342869DEE30089E440 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				576C8C3B2869E08A0089E440 /* OrderService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		576C8C352869DEEF0089E440 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				576C8C3E2869E4F40089E440 /* OrderDetails */,
+				576C8C3D2869E4DA0089E440 /* Orders */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		576C8C382869DFBC0089E440 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				576C8C392869DFC70089E440 /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		576C8C3D2869E4DA0089E440 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				576C8C242869D03F0089E440 /* OrdersViewController.swift */,
+				576C8C362869DFB40089E440 /* OrdersViewModel.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		576C8C3E2869E4F40089E440 /* OrderDetails */ = {
+			isa = PBXGroup;
+			children = (
+				576C8C3F2869E55A0089E440 /* OrderDetailsViewController.swift */,
+				576C8C412869E5880089E440 /* OrderDetailsViewModel.swift */,
+			);
+			path = OrderDetails;
+			sourceTree = "<group>";
+		};
+		6DD2FC40666885AF83F7AA23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7231F4E0BA9C51951033DD48 /* Pods-FlowerShop.debug.xcconfig */,
+				3A2BDA813DA7DD586741397B /* Pods-FlowerShop.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A90B3E845EC1F74F81AB4456 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE840CC758A8B03414475B59 /* Pods_FlowerShop.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 576C8C312869D0410089E440 /* Build configuration list for PBXNativeTarget "FlowerShop" */;
 			buildPhases = (
+				E0E055D897345F15D9FD6648 /* [CP] Check Pods Manifest.lock */,
 				576C8C192869D03F0089E440 /* Sources */,
 				576C8C1A2869D03F0089E440 /* Frameworks */,
 				576C8C1B2869D03F0089E440 /* Resources */,
+				5BCEF0EE72C0574C172417C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +215,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5BCEF0EE72C0574C172417C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlowerShop/Pods-FlowerShop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlowerShop/Pods-FlowerShop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlowerShop/Pods-FlowerShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0E055D897345F15D9FD6648 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlowerShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		576C8C192869D03F0089E440 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				576C8C252869D03F0089E440 /* ViewController.swift in Sources */,
+				576C8C252869D03F0089E440 /* OrdersViewController.swift in Sources */,
 				576C8C212869D03F0089E440 /* AppDelegate.swift in Sources */,
+				576C8C3C2869E08A0089E440 /* OrderService.swift in Sources */,
+				576C8C3A2869DFC70089E440 /* Order.swift in Sources */,
+				576C8C422869E5880089E440 /* OrderDetailsViewModel.swift in Sources */,
+				576C8C402869E55A0089E440 /* OrderDetailsViewController.swift in Sources */,
 				576C8C232869D03F0089E440 /* SceneDelegate.swift in Sources */,
+				576C8C372869DFB40089E440 /* OrdersViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +413,7 @@
 		};
 		576C8C322869D0410089E440 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7231F4E0BA9C51951033DD48 /* Pods-FlowerShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +442,7 @@
 		};
 		576C8C332869D0410089E440 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A2BDA813DA7DD586741397B /* Pods-FlowerShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
