@@ -6,6 +6,5 @@ target 'FlowerShop' do
   use_frameworks!
 
   # Pods for FlowerShop
-pod 'Alamofire'
 
 end

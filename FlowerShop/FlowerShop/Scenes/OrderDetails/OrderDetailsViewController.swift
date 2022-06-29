@@ -8,5 +8,12 @@
 import UIKit
 
 class OrderDetails: UIViewController {
+
+    @IBOutlet weak var orderDescriptionLabel: UILabel!
     
+    @IBOutlet weak var orderPriceLabel: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }

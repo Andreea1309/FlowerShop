@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5741B728286C80B100BDC23E /* orders.json in Resources */ = {isa = PBXBuildFile; fileRef = 5741B727286C80B100BDC23E /* orders.json */; };
+		5741B72A286C871100BDC23E /* Receiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741B729286C871100BDC23E /* Receiver.swift */; };
+		5741B72F286C8A7600BDC23E /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741B72E286C8A7600BDC23E /* OrderCell.swift */; };
+		5741B731286C8D0A00BDC23E /* OrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5741B730286C8D0A00BDC23E /* OrderCell.xib */; };
 		576C8C212869D03F0089E440 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C8C202869D03F0089E440 /* AppDelegate.swift */; };
 		576C8C232869D03F0089E440 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C8C222869D03F0089E440 /* SceneDelegate.swift */; };
 		576C8C252869D03F0089E440 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C8C242869D03F0089E440 /* OrdersViewController.swift */; };
@@ -23,6 +27,10 @@
 
 /* Begin PBXFileReference section */
 		3A2BDA813DA7DD586741397B /* Pods-FlowerShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerShop.release.xcconfig"; path = "Target Support Files/Pods-FlowerShop/Pods-FlowerShop.release.xcconfig"; sourceTree = "<group>"; };
+		5741B727286C80B100BDC23E /* orders.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = orders.json; sourceTree = "<group>"; };
+		5741B729286C871100BDC23E /* Receiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receiver.swift; sourceTree = "<group>"; };
+		5741B72E286C8A7600BDC23E /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		5741B730286C8D0A00BDC23E /* OrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderCell.xib; sourceTree = "<group>"; };
 		576C8C1D2869D03F0089E440 /* FlowerShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		576C8C202869D03F0089E440 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		576C8C222869D03F0089E440 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +60,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5741B726286C809200BDC23E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5741B727286C80B100BDC23E /* orders.json */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5741B72B286C8A1200BDC23E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5741B72E286C8A7600BDC23E /* OrderCell.swift */,
+				5741B730286C8D0A00BDC23E /* OrderCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		576C8C142869D03F0089E440 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +98,7 @@
 		576C8C1F2869D03F0089E440 /* FlowerShop */ = {
 			isa = PBXGroup;
 			children = (
+				5741B726286C809200BDC23E /* Utils */,
 				576C8C382869DFBC0089E440 /* Models */,
 				576C8C352869DEEF0089E440 /* Scenes */,
 				576C8C342869DEE30089E440 /* Services */,
@@ -107,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				576C8C392869DFC70089E440 /* Order.swift */,
+				5741B729286C871100BDC23E /* Receiver.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -114,6 +141,7 @@
 		576C8C3D2869E4DA0089E440 /* Orders */ = {
 			isa = PBXGroup;
 			children = (
+				5741B72B286C8A1200BDC23E /* Cells */,
 				576C8C242869D03F0089E440 /* OrdersViewController.swift */,
 				576C8C362869DFB40089E440 /* OrdersViewModel.swift */,
 			);
@@ -135,7 +163,6 @@
 				7231F4E0BA9C51951033DD48 /* Pods-FlowerShop.debug.xcconfig */,
 				3A2BDA813DA7DD586741397B /* Pods-FlowerShop.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -158,7 +185,6 @@
 				576C8C192869D03F0089E440 /* Sources */,
 				576C8C1A2869D03F0089E440 /* Frameworks */,
 				576C8C1B2869D03F0089E440 /* Resources */,
-				5BCEF0EE72C0574C172417C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,8 +233,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5741B731286C8D0A00BDC23E /* OrderCell.xib in Resources */,
 				576C8C2D2869D0410089E440 /* LaunchScreen.storyboard in Resources */,
 				576C8C2A2869D0410089E440 /* Assets.xcassets in Resources */,
+				5741B728286C80B100BDC23E /* orders.json in Resources */,
 				576C8C282869D03F0089E440 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,23 +244,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5BCEF0EE72C0574C172417C9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlowerShop/Pods-FlowerShop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlowerShop/Pods-FlowerShop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlowerShop/Pods-FlowerShop-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E0E055D897345F15D9FD6648 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,6 +275,8 @@
 			files = (
 				576C8C252869D03F0089E440 /* OrdersViewController.swift in Sources */,
 				576C8C212869D03F0089E440 /* AppDelegate.swift in Sources */,
+				5741B72F286C8A7600BDC23E /* OrderCell.swift in Sources */,
+				5741B72A286C871100BDC23E /* Receiver.swift in Sources */,
 				576C8C3C2869E08A0089E440 /* OrderService.swift in Sources */,
 				576C8C3A2869DFC70089E440 /* Order.swift in Sources */,
 				576C8C422869E5880089E440 /* OrderDetailsViewModel.swift in Sources */,
