@@ -25,6 +25,7 @@
 		57C39BD5286DC394002C2597 /* OrderDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57C39BD4286DC394002C2597 /* OrderDetailsViewController.xib */; };
 		57C39BD8286DC855002C2597 /* UIViewController+InstantiateFromXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C39BD7286DC855002C2597 /* UIViewController+InstantiateFromXib.swift */; };
 		57C39BDB286DD7F0002C2597 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C39BDA286DD7F0002C2597 /* Constants.swift */; };
+		57C39BDD286E00C4002C2597 /* MockOrderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C39BDC286E00C4002C2597 /* MockOrderService.swift */; };
 		775821235AD2D738B8A07E4F /* Pods_FlowerShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE840CC758A8B03414475B59 /* Pods_FlowerShop.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		57C39BD4286DC394002C2597 /* OrderDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderDetailsViewController.xib; sourceTree = "<group>"; };
 		57C39BD7286DC855002C2597 /* UIViewController+InstantiateFromXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+InstantiateFromXib.swift"; sourceTree = "<group>"; };
 		57C39BDA286DD7F0002C2597 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		57C39BDC286E00C4002C2597 /* MockOrderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockOrderService.swift; sourceTree = "<group>"; };
 		7231F4E0BA9C51951033DD48 /* Pods-FlowerShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerShop.debug.xcconfig"; path = "Target Support Files/Pods-FlowerShop/Pods-FlowerShop.debug.xcconfig"; sourceTree = "<group>"; };
 		BE840CC758A8B03414475B59 /* Pods_FlowerShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowerShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				576C8C3B2869E08A0089E440 /* OrderService.swift */,
+				57C39BDC286E00C4002C2597 /* MockOrderService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				576C8C212869D03F0089E440 /* AppDelegate.swift in Sources */,
 				5741B72F286C8A7600BDC23E /* OrderCell.swift in Sources */,
 				5741B72A286C871100BDC23E /* Receiver.swift in Sources */,
+				57C39BDD286E00C4002C2597 /* MockOrderService.swift in Sources */,
 				576C8C3C2869E08A0089E440 /* OrderService.swift in Sources */,
 				576C8C3A2869DFC70089E440 /* Order.swift in Sources */,
 				576C8C422869E5880089E440 /* OrderDetailsViewModel.swift in Sources */,

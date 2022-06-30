@@ -8,7 +8,6 @@
 import UIKit
 
 enum UIConstants {
-    
     static let headerHeight: CGFloat = 50
     static let rowHeight: CGFloat = 100
 }

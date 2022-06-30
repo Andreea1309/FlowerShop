@@ -35,8 +35,8 @@ class OrdersViewController: UIViewController {
 //            }
 //
 //        }
-        guard let jsonData = OrderService.shared.readJsonFile(forFileName: "orders") else { return }
-        orders = OrderService.shared.parseJsonData(jsonData: jsonData)!
+        guard let jsonData = MockOrderService.shared.readJsonFile(forFileName: "orders") else { return }
+        orders = MockOrderService.shared.parseJsonData(jsonData: jsonData)!
         ordersTableView.reloadData()
         print("Orders \(orders)")
 
