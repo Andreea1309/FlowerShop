@@ -9,7 +9,6 @@ import UIKit
 
 class OrderCell: UITableViewCell {
    
-    @IBOutlet weak var orderImageView: UIImageView!
     @IBOutlet weak var orderDescriptionLabel: UILabel!
     @IBOutlet weak var orderPriceLabel: UILabel!
 }
