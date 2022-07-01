@@ -1,0 +1,35 @@
+[
+{
+"id": 20,
+"description": "Red Roses",
+"price": 50,
+"deliver_to": {
+"name": "Bianca",
+"address": "Strada Soarelui nr. 10"
+},
+"image_url": "https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg",
+"status": "new"
+},
+{
+"id": 21,
+"description": "Flower power",
+"price": 60,
+"deliver_to": {
+"name": "Cristina",
+"address": "Bulevardul Nicolae Titulescu nr. 6"
+},
+"image_url": "https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg",
+"status": "pending"
+},
+{
+"id": 21,
+"description": "Chrysantemum",
+"price": 120,
+"deliver_to": {
+"name": "Mihai",
+"address": "Calea Floresti nr. 55"
+},
+"image_url": "https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg",
+"status": "delivered"
+}
+]
