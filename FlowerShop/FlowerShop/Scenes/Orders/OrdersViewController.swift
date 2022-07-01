@@ -19,27 +19,16 @@ class OrdersViewController: UIViewController {
         ordersTableView.dataSource = self
         ordersTableView.register(UINib(nibName: "OrderCell", bundle: nil),
                            forCellReuseIdentifier: "OrderCell")
-//        Task {
-//
-//            do {
-//
-//                orders = try await OrderService.shared.fetchOrdersWithAsyncURLSession()
-//
-//                // Update collection view content
-//
-//                ordersTableView.reloadData()
-//                ordersTableView.layoutIfNeeded()
-//
-//            } catch {
-//                print("Request failed with error: \(error)")
-//            }
-//
-//        }
-        guard let jsonData = MockOrderService.shared.readJsonFile(forFileName: "orders") else { return }
-        orders = MockOrderService.shared.parseJsonData(jsonData: jsonData)!
-        ordersTableView.reloadData()
-        print("Orders \(orders)")
+        Task {
+            do {
+                orders = try await OrderService.shared.fetchOrdersWithAsyncURLSession()
+                ordersTableView.reloadData()
+                ordersTableView.layoutIfNeeded()
 
+            } catch {
+                print("Request failed with error: \(error)")
+            }
+        }
     }
 
 
